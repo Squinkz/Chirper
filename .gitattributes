@@ -1,0 +1,15 @@
+* text=auto
+
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.toml text eol=lf
+*.bat text eol=crlf
+
+*.chirp binary
+*.wav binary
+*.aif binary
+*.aiff binary
+*.flac binary
+*.mp3 binary
+*.ogg binary

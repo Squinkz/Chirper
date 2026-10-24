@@ -1,0 +1,52 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local/editor files
+.vscode/
+.idea/
+*.code-workspace
+.env
+.env.*
+
+# Build/package outputs
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Test and coverage outputs
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Personal benchmarks
+benchmarks/
+
+# Generated/cache files from acceleration tooling
+*.nbc
+*.nbi
+
+# Audio assets and generated sound files
+sounds/
+*.chirp
+*.wav
+*.aif
+*.aiff
+*.flac
+*.mp3
+*.ogg
+
+# Personal sound design scripts at the repository root
+*.py
+!Chirper/
+!Chirper/**/*.py
+!tests/**/*.py
